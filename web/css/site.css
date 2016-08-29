@@ -1,0 +1,124 @@
+html,
+body {
+    height: 100%;
+    background-color : #FFEBCD;
+}
+
+.breadcrumb {
+	text-align: left;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;    
+    width: 800px;
+    background-color: Beige;
+    text-align: center;
+    margin:0 auto;
+    padding: 10px;       
+}
+
+div.header {
+	padding: 2px 20px;	
+	height: 30px;
+	border: 1px solid black;	
+}
+
+div.header > p {
+	display: inline;
+}
+
+.leftFloat {
+	float: left;
+}
+
+.rightFloat {
+	float: right;
+}
+
+.boardList {
+	margin-top: 10px;
+	padding: 2px 20px;	
+	height: 120px;
+	border: 1px solid black;
+	overflow-y: auto;
+}
+
+.boardList table{
+	width: 100%;	
+}
+
+.boardList td{
+	padding: 5px;
+	margin-top: 5px;	
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+a.personalPage {
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    text-align: center;
+    text-decoration: none;
+    color: initial;
+	width: 200px;
+	margin-top: 10px;
+}
+
+div.site-index input{
+	margin-top: 10px;
+	width: 40%;
+	display: inline;
+}
+
+div.main-board {
+	width: 96%;
+	margin: 2%;
+	height: 500px;
+	background-color: white;
+}
+
+div.edit-element-block, div.add-element-block {
+	width: 45%;
+	margin: 2%;
+	height: 260px;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+div.add-element-block label, div.edit-element-block label {
+	width: 55%;	
+}
+
+div.add-element-block input, div.edit-element-block label {
+	width: 35%;	
+}
+
+div.add-element-block input[type=file], div.edit-element-block input[type=file] {
+	width: 80%;
+	margin: 10px auto;
+}
+
+div.add-element-block select {
+	margin: 5px;
+}
+
+div.add-ref, div.add-img, div.edit-img, div.edit-ref, div.edit-txt {
+    display: none;	
+}
+
+div.add-wrap {
+	height: 1000px;
+}
+
+.addedImg, .addedTxt, .addedRef {
+	text-align: left;
+	position: absolute;	
+    cursor: default;
+}
